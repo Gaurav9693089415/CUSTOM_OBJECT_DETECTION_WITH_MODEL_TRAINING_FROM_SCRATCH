@@ -59,8 +59,6 @@ The detector uses a custom grid-based CNN similar in spirit to YOLO but trained 
 Each grid cell predicts two anchor boxes with:
 (objectness, x, y, w, h, class probabilities)
 
-yaml
-Copy code
 
 ---
 
@@ -133,8 +131,6 @@ git clone https://github.com/Gaurav9693089415/CUSTOM_OBJECT_DETECTION_WITH_MODEL
 cd CUSTOM_OBJECT_DETECTION_WITH_MODEL_TRAINING_FROM_SCRATCH
 pip install -r requirements.txt
 
-yaml
-Copy code
 
 ---
 
@@ -142,8 +138,6 @@ Copy code
 
 python src/training/train.py
 
-yaml
-Copy code
 
 ---
 
@@ -151,8 +145,6 @@ Copy code
 
 python src/evaluation/evaluate.py
 
-yaml
-Copy code
 
 ---
 
@@ -161,14 +153,11 @@ Copy code
 Images:
 python demo.py
 
-css
-Copy code
+
 
 Video or webcam:
 python demo.py --mode video
 
-yaml
-Copy code
 
 ---
 
@@ -180,8 +169,6 @@ outputs/ → Weights, logs, detection results
 demo.py → Real-time inference
 project_report.md → Technical report
 
-yaml
-Copy code
 
 ---
 
