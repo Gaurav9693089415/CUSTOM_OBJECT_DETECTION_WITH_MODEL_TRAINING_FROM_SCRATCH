@@ -1,0 +1,17 @@
+EVALUATION RESULTS (VOC-style mAP@0.5)
+============================================================
+mAP@0.5 (11-point interpolation): 0.0189 (1.89%)
+
+Per-class AP:
+  person    : 0.0606
+  car       : 0.0152
+  dog       : 0.0000
+  bicycle   : 0.0000
+
+Overall Precision: 0.0876
+Overall Recall:    0.0222
+Total TP / Detections / GT: 19 / 217 / 856
+
+FPS:           542.67
+Avg Time:      1.84 ms
+Model Size:    31.58 MB

@@ -1,0 +1,17 @@
+# Virtual env
+myenv/
+
+# Dataset (too large)
+dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs except training logs
+*.tmp
+*.cache

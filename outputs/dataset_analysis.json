@@ -1,0 +1,8 @@
+{
+  "train": {
+    "split_name": "train",
+    "num_images": 1750,
+    "images_without_objects": 0,
+    "total_objects": 3810,
+    "avg_objects_per_image": 2.177142857142857,
+    "max_objects_per_image": 

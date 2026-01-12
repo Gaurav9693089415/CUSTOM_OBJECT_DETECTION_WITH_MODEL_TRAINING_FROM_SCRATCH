@@ -1,0 +1,16 @@
+EVALUATION RESULTS - 3 CLASSES (VOC-style mAP@0.5)
+======================================================================
+mAP@0.5 (11-point interpolation): 0.1032 (10.32%)
+
+Per-class AP:
+  person    : 0.1531 (15.31%)
+  car       : 0.1112 (11.12%)
+  chair     : 0.0455 (4.55%)
+
+Overall Precision: 0.1941
+Overall Recall:    0.1853
+Total TP / Detections / GT: 1119 / 5765 / 6039
+
+FPS:           312.89
+Avg Time:      3.20 ms
+Model Size:    31.57 MB
